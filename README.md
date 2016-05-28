@@ -1,6 +1,17 @@
 # Solomon
 This is Couple breaking Android game "Solomon's judgement"'s github.
 
+<<<<<<< HEAD
+=======
+Members.
+Keencat - 2013210019 김혜민
+ahroobe - 2013210099 이수연
+
+
+Solomon_judgement is Unity Project. 
+Unity version is 5.3 and it is personal edition.
+
+>>>>>>> master
 What are we going to make?
 -	Android Game that “breaks” couples by various methods. The name of game is “솔로몬의 판결”(Judgement of Solomon). There is “Solomon” , which is main character of this game and grows every time we play the game with good score. At the end of every games, “Solomon’s Judgement” is showed for result to inform us if we win or not.
 
