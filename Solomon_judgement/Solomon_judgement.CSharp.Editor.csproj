@@ -115,6 +115,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Solomon_judgement.CSharp.csproj">
@@ -136,6 +139,12 @@
     <Compile Include="Assets\InstantGui\Scripts\Editor\InstantGuiElementEditor.cs" />
     <Compile Include="Assets\InstantGui\Scripts\Editor\InstantGuiInspector.cs" />
     <Compile Include="Assets\InstantGui\Scripts\Editor\InstantGuiStyleSetEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\City Props Pack\Readme.txt" />
+    <None Include="Assets\Kitten\Shaders\Alpha-Diffuse.shader" />
+    <None Include="Assets\Kitten\Shaders\Normal-Diffuse.shader" />
+    <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
