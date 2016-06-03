@@ -58,28 +58,27 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Yurowm\Demo\Scripts\Actions.cs" />
-    <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
-    <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterViewer.cs" />
-    <Compile Include="Assets\Yurowm\Demo\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\girlanimate.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\City Props Pack\Readme.txt" />
-    <None Include="Assets\Kitten\Shaders\Alpha-Diffuse.shader" />
-    <None Include="Assets\Kitten\Shaders\Normal-Diffuse.shader" />
-    <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiButton.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiElementsList.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiGauge.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiInputText.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiList.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiPopup.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiSlider.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiTabs.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiTextArea.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiToggle.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiWindow.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\InstantGui.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\InstantGuiElement.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\InstantGuiFrame.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\InstantGuiStyle.cs" />
+    <Compile Include="Assets\InstantGui\Scripts\InstantGuiStyleSet.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
