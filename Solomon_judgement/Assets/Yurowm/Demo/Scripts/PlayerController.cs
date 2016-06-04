@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour {
 
 	private Animator animator;
 
+
 	void Awake() {
 		animator = GetComponent<Animator> ();
 		if (arsenal.Length > 0)
