@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 [RequireComponent (typeof (Animator))]
 public class Actions : MonoBehaviour {
@@ -8,6 +7,7 @@ public class Actions : MonoBehaviour {
 
 	const int countOfDamageAnimations = 3;
 	int lastDamageAnimation = -1;
+
 
 	void Awake () {
 		animator = GetComponent<Animator> ();
@@ -20,7 +20,7 @@ public class Actions : MonoBehaviour {
 
 	public void Walk () {
 		animator.SetBool("Aiming", false);
-		animator.SetFloat ("Speed", 0.5f);
+		animator.SetFloat ("Speed", 0.7f);
 	}
 
 	public void Run () {
