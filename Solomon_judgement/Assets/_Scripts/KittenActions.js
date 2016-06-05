@@ -10,4 +10,6 @@ function Update () {
     if (Input.GetKey(KeyCode.UpArrow)){
         GetComponent.<Animation>().Play("Jump");
     }
+
+
 }
