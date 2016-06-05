@@ -68,6 +68,7 @@
      <Compile Include="Assets\_Scripts\GirlActions.cs" />
      <Compile Include="Assets\_Scripts\MaleActions.cs" />
      <Compile Include="Assets\_Scripts\MetarialActions.cs" />
+     <Compile Include="Assets\_Scripts\SpawnHumans.cs" />
      <Compile Include="Assets\dragEvent.cs" />
      <None Include="Assets\Kitten\Shaders\Normal-Diffuse.shader" />
      <None Include="Assets\Kitten\Shaders\Alpha-Diffuse.shader" />
