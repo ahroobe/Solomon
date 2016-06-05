@@ -20,12 +20,12 @@ public class Actions : MonoBehaviour {
 
 	public void Walk () {
 		animator.SetBool("Aiming", false);
-		animator.SetFloat ("Speed", 0.5f);
+		animator.SetFloat ("Speed", 0.7f);
 	}
 
 	public void Run () {
 		animator.SetBool("Aiming", false);
-		animator.SetFloat ("Speed", 1f);
+        animator.SetFloat("Speed", 0.7f);
 	}
 
 	public void Attack () {
