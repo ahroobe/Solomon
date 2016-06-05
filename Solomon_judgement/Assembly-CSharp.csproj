@@ -65,7 +65,10 @@
      <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
      <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterViewer.cs" />
      <Compile Include="Assets\Yurowm\Demo\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\girlanimate.cs" />
+     <Compile Include="Assets\_Scripts\GirlActions.cs" />
+     <Compile Include="Assets\_Scripts\MaleActions.cs" />
+     <Compile Include="Assets\_Scripts\MetarialActions.cs" />
+     <Compile Include="Assets\dragEvent.cs" />
      <None Include="Assets\Kitten\Shaders\Normal-Diffuse.shader" />
      <None Include="Assets\Kitten\Shaders\Alpha-Diffuse.shader" />
      <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
