@@ -86,6 +86,8 @@
     <Compile Include="Assets\_Scripts\GirlActions.cs" />
     <Compile Include="Assets\_Scripts\MaleActions.cs" />
     <Compile Include="Assets\_Scripts\MetarialActions.cs" />
+    <Compile Include="Assets\_Scripts\SpawnHumans.cs" />
+    <Compile Include="Assets\dragEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\City Props Pack\Readme.txt" />
