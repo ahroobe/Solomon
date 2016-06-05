@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -92,7 +86,7 @@
     <Compile Include="Assets\_Scripts\GirlActions.cs" />
     <Compile Include="Assets\_Scripts\MaleActions.cs" />
     <Compile Include="Assets\_Scripts\MetarialActions.cs" />
-    <Compile Include="Assets\_Scripts\SpawnCouples.cs" />
+    <Compile Include="Assets\_Scripts\SpawnHumans.cs" />
     <Compile Include="Assets\dragEvent.cs" />
   </ItemGroup>
   <ItemGroup>
