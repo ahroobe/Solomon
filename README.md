@@ -1,8 +1,8 @@
 # Solomon
 ##1. About
-This is Couple breaking Android game "Solomon's judgement"'s github.
-Solomon_judgement is Unity Project. 
-Unity version is 5.3 and it is personal edition.
+  This is Couple breaking Android game "Solomon's judgement"'s github.
+  Solomon_judgement is Unity Project. 
+  Unity version is 5.3 and it is personal edition.
 
 ##2. Members.
     * Keencat - 2013210019 김혜민 (Windows)
@@ -20,4 +20,4 @@ Unity version is 5.3 and it is personal edition.
 
 ##5.Result
 [Solomon.apk][1]
-[1]:https://github.com/ahroobe/Solomon/blob/master/solomon.apk
+[1]:https://github.com/ahroobe/Solomon/blob/master/Solomon_judgement/solomon.apk
