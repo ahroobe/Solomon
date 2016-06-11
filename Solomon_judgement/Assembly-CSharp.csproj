@@ -61,6 +61,7 @@
      <Compile Include="Assets\InstantGui\Scripts\InstantGuiFrame.cs" />
      <Compile Include="Assets\InstantGui\Scripts\InstantGuiStyle.cs" />
      <Compile Include="Assets\InstantGui\Scripts\InstantGuiStyleSet.cs" />
+     <Compile Include="Assets\StreetAction.cs" />
      <Compile Include="Assets\Yurowm\Demo\Scripts\Actions.cs" />
      <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
      <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterViewer.cs" />

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class dragEvent : MonoBehaviour {
 	public Vector2 nowPos, prePos, movePos;
@@ -18,6 +19,8 @@ public class dragEvent : MonoBehaviour {
 	private bool go;
 	private bool back;
 	private bool touching;
+	//public AudioClip jump_sound;
+	public AudioSource source;
 
 	// Use this for initialization
 	Vector3 jumpDirection;
@@ -37,8 +40,10 @@ public class dragEvent : MonoBehaviour {
 		jumpDirection = new Vector3 (0, jump, 0);
 		leftDirection = new Vector3 (-widthspeed, 0, 0);
 		rightDirection = new Vector3 (widthspeed, 0, 0);
+
+
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (Input.touchCount == 1) {
@@ -50,7 +55,7 @@ public class dragEvent : MonoBehaviour {
 				
 				nowPos = touch.position - touch.deltaPosition;
 				movePos = (prePos - nowPos);
-				if (movePos.x > 50) {
+				if (movePos.x > 100) {
 					touching = true;
 					//left collision action
 					leftmove = true;
@@ -60,11 +65,12 @@ public class dragEvent : MonoBehaviour {
 				} else if (movePos.y < -50) {
 					touching = true;
 					//jump action
+					source.Play();
 					GetComponent<Animation> ().Play ("Jump");
 					transform.Translate (jumpDirection);
 					nowheight = nowheight + jump;
 					goingUp = true;
-				} else if (movePos.x < -50) {
+				} else if (movePos.x < -100) {
 					touching = true;
 					//right collision action
 					rightmove = true;
@@ -85,6 +91,7 @@ public class dragEvent : MonoBehaviour {
 			} else {
 				goingUp = false;
 				goingDown = true;
+
 			}
 		} else if (goingDown) {
 			if (nowheight == 0) {
