@@ -20,8 +20,8 @@ public class dragEvent : MonoBehaviour {
 	private bool back;
 	private bool touching;
 	//public AudioClip jump_sound;
-	public AudioSource source;
-
+	public AudioSource jumpsource;
+	public AudioSource movesource;
 	// Use this for initialization
 	Vector3 jumpDirection;
 	Vector3 leftDirection;
@@ -56,21 +56,24 @@ public class dragEvent : MonoBehaviour {
 				nowPos = touch.position - touch.deltaPosition;
 				movePos = (prePos - nowPos);
 				if (movePos.x > 100) {
+					movesource.Play ();
 					touching = true;
 					//left collision action
 					leftmove = true;
 					nowx = nowx + widthspeed;
 					transform.Translate (leftDirection);
 					go = true;
+
 				} else if (movePos.y < -50) {
 					touching = true;
 					//jump action
-					source.Play();
+					jumpsource.Play();
 					GetComponent<Animation> ().Play ("Jump");
 					transform.Translate (jumpDirection);
 					nowheight = nowheight + jump;
 					goingUp = true;
 				} else if (movePos.x < -100) {
+					movesource.Play ();
 					touching = true;
 					//right collision action
 					rightmove = true;
