@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DestroyObject.cs" />
      <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiButton.cs" />
      <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiElementsList.cs" />
      <Compile Include="Assets\InstantGui\Scripts\Elements\InstantGuiGauge.cs" />
@@ -61,6 +62,8 @@
      <Compile Include="Assets\InstantGui\Scripts\InstantGuiFrame.cs" />
      <Compile Include="Assets\InstantGui\Scripts\InstantGuiStyle.cs" />
      <Compile Include="Assets\InstantGui\Scripts\InstantGuiStyleSet.cs" />
+     <Compile Include="Assets\KittenController.cs" />
+     <Compile Include="Assets\PlainController.cs" />
      <Compile Include="Assets\StreetAction.cs" />
      <Compile Include="Assets\Yurowm\Demo\Scripts\Actions.cs" />
      <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
