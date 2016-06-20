@@ -12,7 +12,7 @@ public class InstantGuiButton : InstantGuiElement
         if (activated)
         {
             onPressed.Activate(this);
-            if (base.name == "START") { 
+            if (base.name == "START" || base.name == "replay_button") { 
 				SceneManager.LoadScene("Game");
 				Time.timeScale = 1;
 				}
