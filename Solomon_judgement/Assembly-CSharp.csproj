@@ -61,10 +61,6 @@
      <Compile Include="Assets\InstantGui\Scripts\InstantGuiFrame.cs" />
      <Compile Include="Assets\InstantGui\Scripts\InstantGuiStyle.cs" />
      <Compile Include="Assets\InstantGui\Scripts\InstantGuiStyleSet.cs" />
-     <Compile Include="Assets\Yurowm\Demo\Scripts\Actions.cs" />
-     <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
-     <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterViewer.cs" />
-     <Compile Include="Assets\Yurowm\Demo\Scripts\PlayerController.cs" />
      <Compile Include="Assets\_Scripts\DieSound.cs" />
      <Compile Include="Assets\_Scripts\GirlActions.cs" />
      <Compile Include="Assets\_Scripts\KittenController.cs" />
@@ -74,10 +70,13 @@
      <Compile Include="Assets\_Scripts\SpawnHumans.cs" />
      <Compile Include="Assets\_Scripts\StreetAction.cs" />
      <Compile Include="Assets\_Scripts\dragEvent.cs" />
-     <None Include="Assets\Kitten\Shaders\Normal-Diffuse.shader" />
-     <None Include="Assets\Kitten\Shaders\Alpha-Diffuse.shader" />
-     <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
-     <None Include="Assets\City Props Pack\Readme.txt" />
+     <Compile Include="Assets\assets\Yurowm\Demo\Scripts\Actions.cs" />
+     <Compile Include="Assets\assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
+     <Compile Include="Assets\assets\Yurowm\Demo\Scripts\CharacterViewer.cs" />
+     <Compile Include="Assets\assets\Yurowm\Demo\Scripts\PlayerController.cs" />
+     <None Include="Assets\assets\Kitten\Shaders\Normal-Diffuse.shader" />
+     <None Include="Assets\assets\Kitten\Shaders\Alpha-Diffuse.shader" />
+     <None Include="Assets\assets\Yurowm\Shaders\SkinShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
