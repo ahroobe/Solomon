@@ -24,7 +24,7 @@ More details are on 6. Game Demostration section.
 * apk file in this github : [Solomon.apk][1]
 [1]:https://github.com/ahroobe/Solomon/blob/master/Solomon_judgement/solomon.apk
 * download at google Play store : [다운로드][2]
-[2]:
+[2]:https://play.google.com/store/apps/details?id=com.ZZong.Solomon
 
 ##6.Game Demonstration
 ###1) Game rule
@@ -36,5 +36,5 @@ More details are on 6. Game Demostration section.
 
 ###2) Game Screanshots.
 ![start image](https://github.com/ahroobe/Solomon/blob/master/image/capture1.jpeg "picture 1")
-![game play](https://github.com/ahroobe/Solomon/blob/master/image/capture2.jpeg 2")
+![game play](https://github.com/ahroobe/Solomon/blob/master/image/capture2.jpeg "picture 2")
 ![result page](https://github.com/ahroobe/Solomon/blob/master/image/capture3.jpeg "picture 3")
