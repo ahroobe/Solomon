@@ -16,7 +16,7 @@ More details are on 6. Game Demostration section.
 
 
 ##4. What’s in this game?
-  It's similar with general running game and rhythm game. Main Character running center of the road, and by slide right or left, can break couples or get items.
+  It's similar with general running game and rhythm game. Main Character running center of the road, and by slide right or left, can break couples.
   
   We penetrate only couples not pair of solos or just solo. 
 
@@ -35,6 +35,6 @@ More details are on 6. Game Demostration section.
     5. If you drag to left or right side, Solomon will move to there and then come back.
 
 ###2) Game Screanshots.
-![start image](/image/capture1.png "picture 1")
-![game play](/image/capture2.png "picture 2")
-![result page](/image/capture3.png "picture 3")
+![start image](https://github.com/ahroobe/Solomon/blob/master/image/capture1.jpeg "picture 1")
+![game play](https://github.com/ahroobe/Solomon/blob/master/image/capture2.jpeg 2")
+![result page](https://github.com/ahroobe/Solomon/blob/master/image/capture3.jpeg "picture 3")
