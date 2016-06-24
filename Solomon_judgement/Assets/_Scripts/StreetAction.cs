@@ -5,7 +5,7 @@ public class StreetAction : MonoBehaviour {
 
 	public GameObject[] RoadPieces = new GameObject[2];
 	const float RoadLength = 30f;
-	const float RoadSpeed = 7f;
+	const float RoadSpeed = 12f;
 	// Update is called once per frame
 	void Update () {
 	

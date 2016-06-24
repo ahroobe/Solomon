@@ -64,7 +64,7 @@ public class dragEvent : MonoBehaviour {
 					transform.Translate (leftDirection);
 					go = true;
 
-				} else if (movePos.y < -50) {
+				} else if (movePos.y < -200) {
 					touching = true;
 					//jump action
 					jumpsource.Play();
